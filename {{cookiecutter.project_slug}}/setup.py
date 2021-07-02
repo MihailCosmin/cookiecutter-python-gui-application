@@ -39,7 +39,13 @@ setup(
     python_requires='>=3.6',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
+        'Environment :: Win32 (MS Windows)',
+        'Environment :: MacOS X',
+        'Environment :: X11 Applications',
+        'Environment :: Web Environment',
+        'Environment :: Other Environment',
         'Intended Audience :: Developers',
+        'Intended Audience :: End Users/Desktop',
 {%- if cookiecutter.open_source_license in license_classifiers %}
         '{{ license_classifiers[cookiecutter.open_source_license] }}',
 {%- endif %}
@@ -49,6 +55,9 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Topic :: Software Development',
+        'Topic :: Communications :: Email',
+        'Topic :: Office/Business',
     ],
     description="{{ cookiecutter.project_short_description }}",
     install_requires=requirements,
