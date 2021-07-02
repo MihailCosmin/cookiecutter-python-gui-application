@@ -11,3 +11,9 @@ How to Use:
 	
 * Run the GUI demo:
 	python main.py --pyqt5
+    
+    
+Note:
+----
+This Demo is taken from this repository: 
+https://github.com/UN-GCPDS/qt-material
