@@ -11,12 +11,24 @@ Cookiecutter template for a Python GUI Application based on cookiecutter-pypacka
 * Sphinx_ docs: Documentation raedy for generation with, for example, ReadTheDocs_
 * Wheel_ support: Use the newest python package distribution standard from the get go
 
+
+Supported GUI Frameworks
+-----
+PyQt5 and PyQt6
+PySide2 and PySide6
+tkinter
+Kivy
+Pyforms
+PySimpleGUI
+PyGTK
+
+
 Usage
 -----
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/MigailCosmin/cookiecutter-python-gui-application.git
+    cookiecutter https://github.com/MihailCosmin/cookiecutter-python-gui-application.git
 
 Then:
 
