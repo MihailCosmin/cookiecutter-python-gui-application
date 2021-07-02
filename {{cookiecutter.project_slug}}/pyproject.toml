@@ -56,8 +56,8 @@ isort = "*"
 pylint = "*"
 {% if cookiecutter.use_pytest == 'y' -%}
 pytest = "*"{% endif %}
-{%- if cookiecutter.gui_framework == 'PyQT5' %}
-PyQT5 = "*"
+{%- if cookiecutter.gui_framework == 'PyQt5' %}
+PyQt5 = "*"
 {% elif cookiecutter.gui_framework == 'PyQt6' %}
 PyQt6 = "*"
 {% elif cookiecutter.gui_framework == 'PySide2' %}
@@ -73,8 +73,7 @@ Pyforms = "*"
 {% elif cookiecutter.gui_framework == 'PySimpleGUI' %}
 PySimpleGUI = "*"
 {% elif cookiecutter.gui_framework == 'PyGTK' %}
-PyGTK = "*"
-{%- endif %}
+PyGTK = "*"{%- endif %}
 sphinx = "*"
 tox = "*"
 yapf = "*"

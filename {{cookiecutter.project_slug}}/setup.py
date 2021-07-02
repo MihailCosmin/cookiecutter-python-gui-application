@@ -11,7 +11,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-{%- if cookiecutter.gui_framework == 'PyQT5' %}'PyQt5>=5.15.4',
+{%- if cookiecutter.gui_framework == 'PyQt5' %}'PyQt5>=5.15.4',
 {% elif cookiecutter.gui_framework == 'PyQt6' %}'PyQt6>=6.1.1',
 {% elif cookiecutter.gui_framework == 'PySide2' %}'PySide2>=5.15.2',
 {% elif cookiecutter.gui_framework == 'PySide6' %}'PySide6>=6.1.2',
