@@ -14,13 +14,13 @@ Cookiecutter template for a Python GUI Application based on cookiecutter-pypacka
 
 Supported GUI Frameworks
 -----
-* PyQt5 and PyQt6
-* PySide2 and PySide6
-* tkinter
-* Kivy
-* Pyforms
-* PySimpleGUI
-* PyGTK
+* PyQt5 and PyQt6_
+* PySide2 and PySide6_
+* tkinter_
+* Kivy_
+* Pyforms_
+* PySimpleGUI_
+* PyGTK_
 
 
 Usage
@@ -62,4 +62,19 @@ Or Submit a Pull Request
 I also accept pull requests on this, if they're small, atomic, and if they
 make my own packaging experience better.
 
+.. _Travis-CI: http://travis-ci.org/
+.. _Tox: http://testrun.org/tox/
+.. _Sphinx: http://sphinx-doc.org/
+.. _ReadTheDocs: https://readthedocs.org/
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/Nekroze/cookiecutter-pypackage
+.. _Pytest: http://pytest.org/
+.. _PyPy: http://pypy.org/
+.. _Wheel: http://pythonwheels.com
 
+.. _PyQt6: https://www.riverbankcomputing.com/static/Docs/PyQt6/
+.. _PySide6: https://doc.qt.io/qtforpython/
+.. _tkinter: https://docs.python.org/3/library/tk.html
+.. _Kivy: https://kivy.org/doc/stable/
+.. _Pyforms: https://pyforms.readthedocs.io/en/v4/
+.. _PySimpleGUI: https://pysimplegui.readthedocs.io/en/latest/
+.. _PyGTK: https://python-gtk-3-tutorial.readthedocs.io/en/latest/
