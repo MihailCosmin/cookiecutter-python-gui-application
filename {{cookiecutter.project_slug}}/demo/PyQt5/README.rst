@@ -2,7 +2,8 @@ How to Use:
 ===========
 
 * Create and activate a virtual environment:
-	virtualenv venv
+	
+    virtualenv venv
     
     venv\Scripts\Activate
 
