@@ -5,6 +5,7 @@ cookiecutter-python-gui-application
 Cookiecutter template for a Python GUI Application based on cookiecutter-pypackage: https://github.com/audreyr/cookiecutter.
 
 * Free software: BSD license
+* Dependency tracking using poetry_
 * Pytest_ runner: Supports `unittest`, `pytest`, `nose` style tests and more
 * Travis-CI_: Ready for Travis Continuous integration testing
 * Tox_ testing: Setup to easily test for python 2.6, 2.7, 3.3 and PyPy_
@@ -70,7 +71,7 @@ make my own packaging experience better.
 .. _Pytest: http://pytest.org/
 .. _PyPy: http://pypy.org/
 .. _Wheel: http://pythonwheels.com
-
+.. _Poetry: https://python-poetry.org/
 .. _PyQt6: https://www.riverbankcomputing.com/static/Docs/PyQt6/
 .. _PySide6: https://doc.qt.io/qtforpython/
 .. _tkinter: https://docs.python.org/3/library/tk.html
