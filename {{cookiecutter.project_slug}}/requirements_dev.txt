@@ -1,0 +1,29 @@
+pip==19.2.3
+bump2version==0.5.11
+wheel==0.33.6
+watchdog==0.9.0
+flake8==3.7.8
+tox==3.14.0
+coverage==4.5.4
+Sphinx==1.8.5
+twine==1.14.0
+{% if cookiecutter.gui_framework == 'PyQt5' -%}
+PyQt5>=5.15.4{% endif %}
+{% if cookiecutter.gui_framework == 'PyQt6' -%}
+PyQt6>=6.1.1{% endif %}
+{% if cookiecutter.gui_framework == 'PySide2' -%}
+PySide2>=5.15.2{% endif %}
+{% if cookiecutter.gui_framework == 'PySide6' -%}
+PySide6>=6.1.2{% endif %}
+{% if cookiecutter.gui_framework == 'Kivy' -%}
+Kivy>=2.0.0{% endif %}
+{% if cookiecutter.gui_framework == 'wxPython' -%}
+wxPython>=4.1.1{% endif %}
+{% if cookiecutter.gui_framework == 'Pyforms' -%}
+Pyforms>=4.0.3{% endif %}
+{% if cookiecutter.gui_framework == 'PySimpleGUI' -%}
+PySimpleGUI>=4.45.0{% endif %}
+{% if cookiecutter.gui_framework == 'PyGTK' -%}
+PyGTK>=2.24.2{% endif %}
+{% if cookiecutter.use_pytest == 'y' -%}
+pytest==6.2.4{% endif %}
