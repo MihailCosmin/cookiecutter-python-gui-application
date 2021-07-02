@@ -1,6 +1,6 @@
 """Main module."""
 
-{% if cookiecutter.gui_framework == 'PyQt5' -%}
+{%- if cookiecutter.gui_framework == 'PyQt5' %}
 
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
@@ -21,4 +21,4 @@ if __name__ == '__main__':
     main()
 
 
-{% endif %}
+{%- endif %}
