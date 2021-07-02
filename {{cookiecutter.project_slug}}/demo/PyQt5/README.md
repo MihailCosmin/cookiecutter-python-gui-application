@@ -20,6 +20,7 @@ https://github.com/UN-GCPDS/qt-material
 
 
 Sample:
+----
 Dark theme:
 ![dark](https://github.com/UN-GCPDS/qt-material/raw/master/docs/source/notebooks/_images/dark.gif)
 Light theme:
