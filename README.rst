@@ -14,13 +14,13 @@ Cookiecutter template for a Python GUI Application based on cookiecutter-pypacka
 
 Supported GUI Frameworks
 -----
-PyQt5 and PyQt6
-PySide2 and PySide6
-tkinter
-Kivy
-Pyforms
-PySimpleGUI
-PyGTK
+* PyQt5 and PyQt6
+* PySide2 and PySide6
+* tkinter
+* Kivy
+* Pyforms
+* PySimpleGUI
+* PyGTK
 
 
 Usage
