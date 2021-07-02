@@ -56,16 +56,24 @@ isort = "*"
 pylint = "*"
 {% if cookiecutter.use_pytest == 'y' -%}
 pytest = "*"{% endif %}
-{%- if cookiecutter.gui_framework == 'PyQt5' %}PyQt5 = "*"
-{% elif cookiecutter.gui_framework == 'PyQt6' %}PyQt6 = "*"
-{% elif cookiecutter.gui_framework == 'PySide2' %}PySide2 = "*"
-{% elif cookiecutter.gui_framework == 'PySide6' %}PySide6 = "*"
-{% elif cookiecutter.gui_framework == 'Kivy' %}Kivy = "*"
-{% elif cookiecutter.gui_framework == 'wxPython' %}wxPython = "*"
-{% elif cookiecutter.gui_framework == 'Pyforms' %}Pyforms = "*"
-{% elif cookiecutter.gui_framework == 'PySimpleGUI' %}PySimpleGUI = "*"
-{% elif cookiecutter.gui_framework == 'PyGTK' %}PyGTK = "*"{%- endif %}
-sphinx = "*"
+{%- if cookiecutter.gui_framework == 'PyQt5' %}
+PyQt5 = "*"
+{% elif cookiecutter.gui_framework == 'PyQt6' %}
+PyQt6 = "*"
+{% elif cookiecutter.gui_framework == 'PySide2' %}
+PySide2 = "*"
+{% elif cookiecutter.gui_framework == 'PySide6' %}
+PySide6 = "*"
+{% elif cookiecutter.gui_framework == 'Kivy' %}
+Kivy = "*"
+{% elif cookiecutter.gui_framework == 'wxPython' %}
+wxPython = "*"
+{% elif cookiecutter.gui_framework == 'Pyforms' %}
+Pyforms = "*"
+{% elif cookiecutter.gui_framework == 'PySimpleGUI' %}
+PySimpleGUI = "*"
+{% elif cookiecutter.gui_framework == 'PyGTK' %}
+PyGTK = "*"{%- endif %}sphinx = "*"
 tox = "*"
 yapf = "*"
 
