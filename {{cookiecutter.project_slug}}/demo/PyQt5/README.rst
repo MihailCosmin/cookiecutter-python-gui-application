@@ -2,14 +2,14 @@ How to Use:
 ===========
 
 * Create and activate a virtual environment:
-.. code-block:: php
+.. code-block::
     virtualenv venv
     venv\Scripts\Activate
 
 * Install dependencies:
-.. code-block:: php
+.. code-block::
 	pip install -r requirements.txt
 	
 * Run the GUI demo:
-.. code-block:: php
+.. code-block::
 	python main.py --pyqt5
