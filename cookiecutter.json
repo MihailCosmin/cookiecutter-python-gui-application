@@ -8,11 +8,11 @@
   "pypi_username": "{{ cookiecutter.github_username }}",
   "version": "0.1.0",
   "gui_framework": ["PyQt5", "PyQt6", "PySide2", "PySide6", "Tkinter", "Kivy", "wxPython", "Pyforms", "PySimpleGUI", "PyGTK", "None - Will decide later"],
-  "install_demo": "y",
   "use_poetry": "y",
   "use_pytest": "y",
   "use_pypi_deployment_with_travis": "y",
   "add_pyup_badge": "y",
   "create_author_file": "y",
-  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+  "show_demo": "y"
 }

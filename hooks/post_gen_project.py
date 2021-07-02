@@ -16,5 +16,3 @@ use_poetry = '{{cookiecutter.use_poetry}}' == 'y'
 if not use_poetry:
     # remove top-level file inside the generated folder
     remove('pyproject.toml')
-
-
