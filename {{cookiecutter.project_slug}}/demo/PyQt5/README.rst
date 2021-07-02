@@ -3,8 +3,7 @@ How to Use:
 
 * Create and activate a virtual environment:
 	virtualenv venv
-    
-	venv\Scripts\Activate
+    venv\Scripts\Activate
 
 * Install dependencies:
 	pip install -r requirements.txt
