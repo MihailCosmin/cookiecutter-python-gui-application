@@ -3,6 +3,7 @@ How to Use:
 
 * Create and activate a virtual environment:
 	virtualenv venv
+    
 	venv\Scripts\Activate
 
 * Install dependencies:
