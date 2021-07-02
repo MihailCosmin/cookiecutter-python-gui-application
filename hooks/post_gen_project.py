@@ -11,15 +11,10 @@ def remove(filepath):
         shutil.rmtree(filepath)
 
 use_poetry = '{{cookiecutter.use_poetry}}' == 'y'
-# create_file_one = '{{cookiecutter.create_file_one}}' == 'y'
 
 
 if not use_poetry:
     # remove top-level file inside the generated folder
     remove('pyproject.toml')
 
-'''
-if not create_file_one:
-    # remove absolute path to file nested inside the generated folder
-    remove(os.path.join(os.getcwd(), '{{cookiecutter.package_name}}', 'file_one.py'))'''
 
