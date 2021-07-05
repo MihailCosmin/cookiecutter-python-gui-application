@@ -3,6 +3,10 @@ cookiecutter-python-gui-application
 ===================================
 
 Cookiecutter template for a Python GUI Application based on cookiecutter-pypackage: https://github.com/audreyr/cookiecutter.
+This template is mostly intended for beginners in GUI development using Python, but it can be used by experienced developers also.
+
+Besides providing the template and the needed tools for GUI development, this repository also commes with demos for every python GUI framework in order to get you started if you are a beginner.
+
 
 * Free software: BSD license
 * Dependency tracking using poetry_
