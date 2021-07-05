@@ -6,7 +6,7 @@ Cookiecutter template for Python GUI Applications based on cookiecutter-pypackag
 
 This template is mostly intended for beginners in GUI development using Python, but it can be used by experienced developers also.
 
-Besides providing the template and the needed tools for GUI development, this repository also comes with demos for every python GUI framework in order to get you started if you are a beginner.
+Besides providing the template and the needed tools for GUI development, this repository also comes with demos for every python GUI framework, in order to get you started, if you are a beginner.
 
 Features
 -----
