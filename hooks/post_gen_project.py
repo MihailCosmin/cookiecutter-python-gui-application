@@ -11,8 +11,12 @@ def remove(filepath):
         shutil.rmtree(filepath)
 
 use_poetry = '{{cookiecutter.use_poetry}}' == 'y'
-
+install_demo = '{{cookiecutter.install_demo}}' == 'y'
 
 if not use_poetry:
     # remove top-level file inside the generated folder
     remove('pyproject.toml')
+
+if not install_demo:
+    # remove top-level file inside the generated folder
+    remove('demo')
