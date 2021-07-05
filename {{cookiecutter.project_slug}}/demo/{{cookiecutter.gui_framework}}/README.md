@@ -10,7 +10,11 @@ How to Use:
 	pip install -r requirements.txt
 	
 * Run the GUI demo:
-	python main.py --pyqt5
+	python main.py --{%- if cookiecutter.gui_framework == 'PyQt5' %}pyqt5
+{% elif cookiecutter.gui_framework == 'PyQt6' %}pyqt6
+{% elif cookiecutter.gui_framework == 'PySide2' %}pyside2
+{% elif cookiecutter.gui_framework == 'PySide6' %}pyside6
+{%- endif %}
     
     
 Note:

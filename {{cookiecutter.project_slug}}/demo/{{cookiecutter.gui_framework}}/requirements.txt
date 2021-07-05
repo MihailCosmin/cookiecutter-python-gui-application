@@ -1,0 +1,22 @@
+{%- if cookiecutter.gui_framework == PyQt5 %}
+pyqt5
+psutil
+PyQtWebEngine
+qt_material
+{%- endif %}
+{%- if cookiecutter.gui_framework == PyQt6 %}
+pyqt6
+psutil
+PyQtWebEngine
+qt_material
+{%- endif %}
+{%- if cookiecutter.gui_framework == PySide2 %}
+PySide2
+psutil
+qt_material
+{%- endif %}
+{%- if cookiecutter.gui_framework == PySide6 %}
+PySide6
+psutil
+qt_material
+{%- endif %}
