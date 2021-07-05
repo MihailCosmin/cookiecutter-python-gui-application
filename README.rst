@@ -1,8 +1,8 @@
 ===================================
-cookiecutter-python-gui-application
+Cookiecutter Python GUI Application
 ===================================
 
-Cookiecutter template for a Python GUI Application based on cookiecutter-pypackage: https://github.com/audreyfeldroy/cookiecutter-pypackage.
+Cookiecutter template for Python GUI Applications based on cookiecutter-pypackage: https://github.com/audreyfeldroy/cookiecutter-pypackage.
 
 This template is mostly intended for beginners in GUI development using Python, but it can be used by experienced developers also.
 
@@ -33,17 +33,9 @@ Supported GUI Frameworks
 Usage
 -----
 
-Generate a Python package project::
+Generate a Python GUI Application project::
 
     cookiecutter https://github.com/MihailCosmin/cookiecutter-python-gui-application.git
-
-Then:
-
-* Create a repo and put it there.
-* Add the repo to your Travis CI account.
-* Add the repo to your ReadTheDocs account + turn on the ReadTheDocs service hook.
-* Run `tox` to make sure all tests pass.
-* Release your package the standard Python way.
 
 Not Exactly What You Want?
 --------------------------
