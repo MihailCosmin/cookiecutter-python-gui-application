@@ -2,10 +2,11 @@
 cookiecutter-python-gui-application
 ===================================
 
-Cookiecutter template for a Python GUI Application based on cookiecutter-pypackage: https://github.com/audreyr/cookiecutter.
+Cookiecutter template for a Python GUI Application based on cookiecutter-pypackage: https://github.com/audreyr/cookiecutter .
+
 This template is mostly intended for beginners in GUI development using Python, but it can be used by experienced developers also.
 
-Besides providing the template and the needed tools for GUI development, this repository also commes with demos for every python GUI framework in order to get you started if you are a beginner.
+Besides providing the template and the needed tools for GUI development, this repository also comes with demos for every python GUI framework in order to get you started if you are a beginner.
 
 
 * Free software: BSD license
@@ -71,7 +72,7 @@ make my own packaging experience better.
 .. _Tox: http://testrun.org/tox/
 .. _Sphinx: http://sphinx-doc.org/
 .. _ReadTheDocs: https://readthedocs.org/
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/Nekroze/cookiecutter-pypackage
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter
 .. _Pytest: http://pytest.org/
 .. _PyPy: http://pypy.org/
 .. _Wheel: http://pythonwheels.com
