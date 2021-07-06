@@ -22,4 +22,4 @@ if not install_demo:
     remove('demo')
 
 if '{{cookiecutter.gui_framework}}' == 'Tkinter':
-        remove('demo/Tkinter')
+    remove('demo/Tkinter')

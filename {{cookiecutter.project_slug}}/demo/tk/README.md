@@ -22,5 +22,6 @@ https://github.com/amandeep511997/Text-Editor
 Sample:
 ----
 Text Editor:
+
 ![Text Editor](text-editor.png)
 
