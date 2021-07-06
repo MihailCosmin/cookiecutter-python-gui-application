@@ -23,8 +23,9 @@ if not install_demo:
 
 if '{{cookiecutter.gui_framework}}' == 'Tkinter':
     remove('demo/Tkinter')
-    remove('demo/kivy')
+    remove('demo/kivy_')
 
 if '{{cookiecutter.gui_framework}}' == 'Kivy':
     remove('demo/Kivy')
+    os.rename('demo/kivy_','demo/kivy')
     remove('demo/tk')
