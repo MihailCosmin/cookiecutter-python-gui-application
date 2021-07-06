@@ -27,6 +27,22 @@ Supported GUI Frameworks
 * Kivy_
 * wxPython_
 
+Demos:
+-----
+* Qt family (PyQt5, PyQt6, PySide2, PySide6):
+Dark theme:
+![dark](https://github.com/UN-GCPDS/qt-material/raw/master/docs/source/notebooks/_images/dark.gif)
+Light theme:
+![light](https://github.com/UN-GCPDS/qt-material/raw/master/docs/source/notebooks/_images/light.gif)
+
+* Tkinter:
+![Text Editor]({{cookiecutter.project_slug}}\demo\tkinter_\text-editor.png)
+
+* Kivy:
+![Kivy]({{cookiecutter.project_slug}}\demo\kivy_\sample.gif)
+
+* wxPython:
+![Web Browser]({{cookiecutter.project_slug}}\demo\wxPython_\demo.gif)
 
 Usage
 -----
