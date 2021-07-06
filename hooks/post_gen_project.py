@@ -35,11 +35,11 @@ if '{{cookiecutter.gui_framework}}' == 'Tkinter':
 if '{{cookiecutter.gui_framework}}' == 'Kivy':
     remove('demo/Kivy')
     os.rename('demo/kivy_', 'demo/kivy')
-    remove('demo/tkinter')
+    remove('demo/tkinter_')
     remove('demo/wxPython_')
 
 if '{{cookiecutter.gui_framework}}' == 'wxPython':
     remove('demo/wxPython')
     os.rename('demo/wxPython_', 'demo/wxPython')
-    remove('demo/tkinter')
+    remove('demo/tkinter_')
     remove('demo/kivy_')
