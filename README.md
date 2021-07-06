@@ -60,7 +60,7 @@ Don't worry, you have options:
 Similar Cookiecutter Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* [`audreyr/cookiecutter-pypackage`](https://github.com/audreyfeldroy/cookiecutter-pypackage "`audreyr/cookiecutter-pypackage`"): The original pypackage.
+* [audreyr/cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage "audreyr/cookiecutter-pypackage"): The original pypackage.
 
 Fork This
 ~~~~~~~~~
