@@ -21,11 +21,15 @@ if not install_demo:
     # remove top-level file inside the generated folder
     remove('demo')
 
+if 'Py' in '{{cookiecutter.gui_framework}}':
+    remove('demo/tk')
+    remove('demo/kivy_')
+
 if '{{cookiecutter.gui_framework}}' == 'Tkinter':
     remove('demo/Tkinter')
     remove('demo/kivy_')
 
 if '{{cookiecutter.gui_framework}}' == 'Kivy':
     remove('demo/Kivy')
-    os.rename('demo/kivy_','demo/kivy')
+    os.rename('demo/kivy_', 'demo/kivy')
     remove('demo/tk')
