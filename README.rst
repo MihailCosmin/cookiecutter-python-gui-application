@@ -29,6 +29,13 @@ Supported GUI Frameworks
 * PySimpleGUI_
 * PyGTK_
 
+Demos for:
+-----
+* PyQt5 and PyQt6_
+* PySide2 and PySide6_
+* tkinter_
+* Kivy_
+
 
 Usage
 -----
