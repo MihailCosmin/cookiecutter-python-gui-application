@@ -58,12 +58,12 @@ Not Exactly What You Want?
 Don't worry, you have options:
 
 Similar Cookiecutter Templates
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
 * [audreyr/cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage "audreyr/cookiecutter-pypackage"): The original pypackage.
 
 Fork This
-~~~~~~~~~
+---------
 
 If you have differences in your preferred setup, I encourage you to fork this
 to create your own version. Once you have your fork working, add it to the
@@ -71,7 +71,7 @@ Similar Cookiecutter Templates list with a brief explanation. It's up to you
 whether or not to rename your fork.
 
 Or Submit a Pull Request
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 I also accept pull requests on this, if they're small, atomic, and if they
 make my own packaging experience better.
