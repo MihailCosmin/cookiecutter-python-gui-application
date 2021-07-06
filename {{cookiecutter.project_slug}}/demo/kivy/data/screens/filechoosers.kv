@@ -1,0 +1,24 @@
+ShowcaseScreen:
+    name: 'FileChoosers'
+    fullscreen: True
+
+    BoxLayout:
+        size_hint_y: None
+        height: '48dp'
+
+        ToggleButton:
+            text: 'Icon'
+            state: 'down'
+            group: 'filechooser'
+            on_release: filechooser.view_mode = 'icon'
+
+        ToggleButton:
+            text: 'List'
+            group: 'filechooser'
+            on_release: filechooser.view_mode = 'list'
+
+    FileChooser:
+        id: filechooser
+        
+        FileChooserIconLayout
+        FileChooserListLayout
