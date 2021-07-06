@@ -20,3 +20,6 @@ if not use_poetry:
 if not install_demo:
     # remove top-level file inside the generated folder
     remove('demo')
+
+if '{{cookiecutter.gui_framework}}' == 'Tkinter':
+        remove('demo/Tkinter')
