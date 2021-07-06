@@ -25,6 +25,8 @@ Supported GUI Frameworks
 * PySide2 and PySide6_
 * tkinter_
 * Kivy_
+* wxPython_
+
 
 Usage
 -----
@@ -70,3 +72,4 @@ make my own packaging experience better.
 .. _PySide6: https://doc.qt.io/qtforpython/
 .. _tkinter: https://docs.python.org/3/library/tk.html
 .. _Kivy: https://kivy.org/doc/stable/
+.. _wxPython: https://www.wxpython.org/

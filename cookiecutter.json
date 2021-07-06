@@ -7,7 +7,7 @@
   "project_short_description": "Python template that contains all the things you need to create a Python GUI Application.",
   "pypi_username": "{{ cookiecutter.github_username }}",
   "version": "0.1.0",
-  "gui_framework": ["PyQt5", "PyQt6", "PySide2", "PySide6", "Tkinter", "Kivy", "wxPython", "Pyforms", "PySimpleGUI", "PyGTK", "None - Will decide later"],
+  "gui_framework": ["PyQt5", "PyQt6", "PySide2", "PySide6", "Tkinter", "Kivy", "wxPython", "None - Will decide later"],
   "use_poetry": "y",
   "use_pytest": "y",
   "use_pypi_deployment_with_travis": "y",
