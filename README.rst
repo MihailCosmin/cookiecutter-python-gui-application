@@ -25,17 +25,6 @@ Supported GUI Frameworks
 * PySide2 and PySide6_
 * tkinter_
 * Kivy_
-* Pyforms_
-* PySimpleGUI_
-* PyGTK_
-
-Demos for:
------
-* PyQt5 and PyQt6_
-* PySide2 and PySide6_
-* tkinter_
-* Kivy_
-
 
 Usage
 -----
@@ -81,6 +70,3 @@ make my own packaging experience better.
 .. _PySide6: https://doc.qt.io/qtforpython/
 .. _tkinter: https://docs.python.org/3/library/tk.html
 .. _Kivy: https://kivy.org/doc/stable/
-.. _Pyforms: https://pyforms.readthedocs.io/en/v4/
-.. _PySimpleGUI: https://pysimplegui.readthedocs.io/en/latest/
-.. _PyGTK: https://python-gtk-3-tutorial.readthedocs.io/en/latest/
