@@ -8,9 +8,11 @@ How to Use:
     venv\Scripts\Activate
 
 * Install dependencies:
+
 	pip install -r requirements.txt
 	
 * Run the GUI demo:
+
 	python main.py
     
     
