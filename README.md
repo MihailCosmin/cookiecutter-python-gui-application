@@ -10,21 +10,21 @@ Besides providing the template and the needed tools for GUI development, this re
 Features
 -----
 * Free software: BSD license
-* Dependency tracking using poetry_
-* Pytest_ runner: Supports `unittest`, `pytest`, `nose` style tests and more
-* Travis-CI_: Ready for Travis Continuous integration testing
-* Tox_ testing: Setup to easily test for python 2.6, 2.7, 3.3 and PyPy_
-* Sphinx_ docs: Documentation ready for generation with, for example, ReadTheDocs_
-* Wheel_ support: Use the newest python package distribution standard from the get go
+* Dependency tracking using [poetry](https://python-poetry.org/ "poetry")
+* [Pytest](http://pytest.org/ "Pytest") runner: Supports `unittest`, `pytest`, `nose` style tests and more
+* [Travis-CI](http://travis-ci.org/"Travis-CI"): Ready for Travis Continuous integration testing
+* [Tox](http://testrun.org/tox/ "Tox") testing: Setup to easily test for python 2.6, 2.7, 3.3 and PyPy_
+* [Sphinx](http://sphinx-doc.org/ "Sphinx") docs: Documentation ready for generation with, for example, [ReadTheDocs](https://readthedocs.org/ "ReadTheDocs")
+* [Wheel](http://pythonwheels.com "Wheel") support: Use the newest python package distribution standard from the get go
 
 
 Supported GUI Frameworks
 -----
 * [PyQt5 and PyQt6](https://www.riverbankcomputing.com/static/Docs/PyQt6 "PyQt5 and PyQt6")
-* PySide2 and PySide6_
-* tkinter_
-* Kivy_
-* wxPython_
+* [PySide2 and PySide6](https://doc.qt.io/qtforpython "PySide2 and PySide6")
+* [tkinter](https://docs.python.org/3/library/tk.html "tkinter")
+* [Kivy](https://kivy.org/doc/stable "Kivy")
+* [wxPython](https://www.wxpython.org/ "wxPython")
 
 Demos:
 -----
@@ -60,7 +60,7 @@ Don't worry, you have options:
 Similar Cookiecutter Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* `audreyr/cookiecutter-pypackage`_: The original pypackage.
+* [`audreyr/cookiecutter-pypackage`](https://github.com/audreyfeldroy/cookiecutter-pypackage "`audreyr/cookiecutter-pypackage`"): The original pypackage.
 
 Fork This
 ~~~~~~~~~
@@ -75,18 +75,3 @@ Or Submit a Pull Request
 
 I also accept pull requests on this, if they're small, atomic, and if they
 make my own packaging experience better.
-
-.. _Travis-CI: http://travis-ci.org/
-.. _Tox: http://testrun.org/tox/
-.. _Sphinx: http://sphinx-doc.org/
-.. _ReadTheDocs: https://readthedocs.org/
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyfeldroy/cookiecutter-pypackage
-.. _Pytest: http://pytest.org/
-.. _PyPy: http://pypy.org/
-.. _Wheel: http://pythonwheels.com
-.. _Poetry: https://python-poetry.org/
-.. _PyQt6: https://www.riverbankcomputing.com/static/Docs/PyQt6/
-.. _PySide6: https://doc.qt.io/qtforpython/
-.. _tkinter: https://docs.python.org/3/library/tk.html
-.. _Kivy: https://kivy.org/doc/stable/
-.. _wxPython: https://www.wxpython.org/
