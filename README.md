@@ -30,19 +30,17 @@ Supported GUI Frameworks
 Demos:
 -----
 * Qt family (PyQt5, PyQt6, PySide2, PySide6):
-Dark theme:
-![dark](https://github.com/UN-GCPDS/qt-material/raw/master/docs/source/notebooks/_images/dark.gif)
-Light theme:
-![light](https://github.com/UN-GCPDS/qt-material/raw/master/docs/source/notebooks/_images/light.gif)
+![Qt Demo](https://github.com/UN-GCPDS/qt-material/raw/master/docs/source/notebooks/_images/dark.gif)
+
 
 * Tkinter:
-![Text Editor]({{cookiecutter.project_slug}}\demo\tkinter_\text-editor.png)
+![Text Editor](https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/main/%7B%7Bcookiecutter.project_slug%7D%7D/demo/tkinter_/text-editor.png)
 
 * Kivy:
-![Kivy]({{cookiecutter.project_slug}}\demo\kivy_\sample.gif)
+![Kivy](https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/main/%7B%7Bcookiecutter.project_slug%7D%7D/demo/kivy_/sample.gif)
 
 * wxPython:
-![Web Browser]({{cookiecutter.project_slug}}\demo\wxPython_\demo.gif)
+![Web Browser](https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/main/%7B%7Bcookiecutter.project_slug%7D%7D/demo/wxPython_/demo.gif)
 
 Usage
 -----
