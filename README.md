@@ -20,7 +20,7 @@ Features
 
 Supported GUI Frameworks
 -----
-* PyQt5 and PyQt6_
+* [PyQt5 and PyQt6](https://www.riverbankcomputing.com/static/Docs/PyQt6 "PyQt5 and PyQt6")
 * PySide2 and PySide6_
 * tkinter_
 * Kivy_
