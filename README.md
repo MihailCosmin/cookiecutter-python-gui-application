@@ -25,6 +25,7 @@ Supported GUI Frameworks
 * [tkinter](https://docs.python.org/3/library/tk.html "tkinter")
 * [Kivy](https://kivy.org/doc/stable "Kivy")
 * [wxPython](https://www.wxpython.org/ "wxPython")
+* [PySimpleGUI](https://www.pysimplegui.org/en/latest/ "PySimpleGUI")
 
 Demos:
 -----
