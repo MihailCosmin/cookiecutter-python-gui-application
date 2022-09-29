@@ -4,7 +4,12 @@ import shutil
 
 print(os.getcwd())  # prints /absolute/path/to/{{cookiecutter.project_slug}}
 
-def remove(filepath):
+def remove(filepath: str):
+    """Remove a file or a directory.
+
+    Args:
+        filepath (str): Path to the file or directory to remove.
+    """
     if os.path.isfile(filepath):
         os.remove(filepath)
     elif os.path.isdir(filepath):
