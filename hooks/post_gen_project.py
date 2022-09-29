@@ -21,25 +21,36 @@ if not keep_demo:
     # remove top-level file inside the generated folder
     remove('demo')
 else:
-    if '{{cookiecutter.gui_framework}}'.startswith('Py'):
+    if '{{cookiecutter.gui_framework}}'.startswith('PyS'):
         remove('demo/tkinter_')
         remove('demo/kivy_')
         remove('demo/wxPython_')
+        remove('demo/pysimplegui_')
 
     if '{{cookiecutter.gui_framework}}' == 'Tkinter':
         remove('demo/Tkinter')
         os.rename('demo/tkinter_', 'demo/tkinter')
         remove('demo/kivy_')
         remove('demo/wxPython_')
+        remove('demo/pysimplegui_')
 
     if '{{cookiecutter.gui_framework}}' == 'Kivy':
         remove('demo/Kivy')
         os.rename('demo/kivy_', 'demo/kivy')
         remove('demo/tkinter_')
         remove('demo/wxPython_')
+        remove('demo/pysimplegui_')
 
     if '{{cookiecutter.gui_framework}}' == 'wxPython':
         remove('demo/wxPython')
         os.rename('demo/wxPython_', 'demo/wxPython')
         remove('demo/tkinter_')
         remove('demo/kivy_')
+        remove('demo/pysimplegui_')
+
+    if '{{cookiecutter.gui_framework}}' == 'PySimpleGUI':
+        remove('demo/PySimpleGUI')
+        os.rename('demo/pysimplegui_', 'demo/PySimpleGUI')
+        remove('demo/tkinter_')
+        remove('demo/kivy_')
+        remove('demo/wxPython_')
