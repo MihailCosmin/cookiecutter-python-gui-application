@@ -46,6 +46,10 @@ Demos:
 
 ![Web Browser](https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/main/%7B%7Bcookiecutter.project_slug%7D%7D/demo/wxPython_/demo.gif)
 
+* PySimpleGUI:
+
+![PySimpleGUI](https://github.com/PriestTheBeast/SimpleGUIBuilder/blob/main/SimpleGUIBuilder.gif)
+
 Usage
 -----
 
