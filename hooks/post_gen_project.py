@@ -21,7 +21,7 @@ if not keep_demo:
     # remove top-level file inside the generated folder
     remove('demo')
 else:
-    if '{{cookiecutter.gui_framework}}'.startswith('PyS'):
+    if '{{cookiecutter.gui_framework}}'.startswith('PySide'):
         remove('demo/tkinter_')
         remove('demo/kivy_')
         remove('demo/wxPython_')
