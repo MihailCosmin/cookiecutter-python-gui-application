@@ -53,7 +53,7 @@ Demos:
 Usage
 -----
 
-Generate a Python GUI Application project::
+Generate a Python GUI Application project:
 
     cookiecutter https://github.com/MihailCosmin/cookiecutter-python-gui-application.git
 
