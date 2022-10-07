@@ -23,6 +23,7 @@ Supported GUI Frameworks
 * [PyQt5 and PyQt6](https://www.riverbankcomputing.com/static/Docs/PyQt6 "PyQt5 and PyQt6")
 * [PySide2 and PySide6](https://doc.qt.io/qtforpython "PySide2 and PySide6")
 * [tkinter](https://docs.python.org/3/library/tk.html "tkinter")
+# TODO: Add Django for desktop apps
 * [Kivy](https://kivy.org/doc/stable "Kivy")
 * [wxPython](https://www.wxpython.org/ "wxPython")
 * [PySimpleGUI](https://www.pysimplegui.org/en/latest/ "PySimpleGUI")
