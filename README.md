@@ -25,6 +25,7 @@ Supported GUI Frameworks
 * [tkinter](https://docs.python.org/3/library/tk.html "tkinter")
 * TODO: Add Django for desktop apps
 * [Kivy](https://kivy.org/doc/stable "Kivy")
+* TODO: Add [Toga](https://github.com/beeware/toga "Toga")
 * [wxPython](https://www.wxpython.org/ "wxPython")
 * [PySimpleGUI](https://www.pysimplegui.org/en/latest/ "PySimpleGUI")
 
