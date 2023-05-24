@@ -23,10 +23,13 @@ Supported GUI Frameworks
 * [PyQt5 and PyQt6](https://www.riverbankcomputing.com/static/Docs/PyQt6 "PyQt5 and PyQt6")
 * [PySide2 and PySide6](https://doc.qt.io/qtforpython "PySide2 and PySide6")
 * [tkinter](https://docs.python.org/3/library/tk.html "tkinter") and [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
+* TODO: Add [DearPyGui](https://github.com/hoffstadt/DearPyGui) 
 * [PySimpleGUI](https://www.pysimplegui.org/en/latest/ "PySimpleGUI")
 * [wxPython](https://www.wxpython.org/ "wxPython")
 * [Toga](https://github.com/beeware/toga "Toga")
+* TODO: Add [PyForms](https://github.com/UmSenhorQualquer/pyforms-gui)
 * [Kivy](https://kivy.org/doc/stable "Kivy")
+* TODO: Add [libavg](https://www.libavg.de/site/projects/libavg/wiki/ReleaseInstall)
 
 Demos:
 -----
