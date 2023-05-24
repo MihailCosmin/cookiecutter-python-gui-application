@@ -6,29 +6,17 @@ flake8>=3.7.8
 tox>=3.14.0
 coverage>=4.5.4
 Sphinx>=1.8.5
-twine>=1.14.0
-{% if cookiecutter.gui_framework == 'PyQt5' -%}
-PyQt5>=5.15.4{% endif %}
-{% if cookiecutter.gui_framework == 'PyQt6' -%}
-PyQt6>=6.1.1{% endif %}
-{% if cookiecutter.gui_framework == 'PySide2' -%}
-PySide2>=5.15.2{% endif %}
-{% if cookiecutter.gui_framework == 'PySide6' -%}
-PySide6>=6.1.2{% endif %}
-{% if cookiecutter.gui_framework == 'customTkinter' -%}
-customTkinter>=5.1.3{% endif %}
-{% if cookiecutter.gui_framework == 'Kivy' -%}
-Kivy>=2.0.0{% endif %}
-{% if cookiecutter.gui_framework == 'Toga' -%}
+twine>=1.14.0{% if cookiecutter.gui_framework == 'PyQt5' -%}
+PyQt5>=5.15.4{% endif %}{% if cookiecutter.gui_framework == 'PyQt6' -%}
+PyQt6>=6.1.1{% endif %}{% if cookiecutter.gui_framework == 'PySide2' -%}
+PySide2>=5.15.2{% endif %}{% if cookiecutter.gui_framework == 'PySide6' -%}
+PySide6>=6.1.2{% endif %}{% if cookiecutter.gui_framework == 'customTkinter' -%}
+customTkinter>=5.1.3{% endif %}{% if cookiecutter.gui_framework == 'Kivy' -%}
+Kivy>=2.0.0{% endif %}{% if cookiecutter.gui_framework == 'Toga' -%}
 toga>=0.3.1
-briefcase>=0.3.14{% endif %}
-{% if cookiecutter.gui_framework == 'wxPython' -%}
-wxPython>=4.1.1{% endif %}
-{% if cookiecutter.gui_framework == 'Pyforms' -%}
-Pyforms>=4.0.3{% endif %}
-{% if cookiecutter.gui_framework == 'PySimpleGUI' -%}
-PySimpleGUI>=4.45.0{% endif %}
-{% if cookiecutter.gui_framework == 'PyGTK' -%}
-PyGTK>=2.24.2{% endif %}
-{% if cookiecutter.use_pytest == 'y' -%}
+briefcase>=0.3.14{% endif %}{% if cookiecutter.gui_framework == 'wxPython' -%}
+wxPython>=4.1.1{% endif %}{% if cookiecutter.gui_framework == 'Pyforms' -%}
+Pyforms>=4.0.3{% endif %}{% if cookiecutter.gui_framework == 'PySimpleGUI' -%}
+PySimpleGUI>=4.45.0{% endif %}{% if cookiecutter.gui_framework == 'PyGTK' -%}
+PyGTK>=2.24.2{% endif %}{% if cookiecutter.use_pytest == 'y' -%}
 pytest>=6.2.4{% endif %}
