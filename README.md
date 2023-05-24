@@ -23,10 +23,10 @@ Supported GUI Frameworks
 * [PyQt5 and PyQt6](https://www.riverbankcomputing.com/static/Docs/PyQt6 "PyQt5 and PyQt6")
 * [PySide2 and PySide6](https://doc.qt.io/qtforpython "PySide2 and PySide6")
 * [tkinter](https://docs.python.org/3/library/tk.html "tkinter") and [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
-* [Kivy](https://kivy.org/doc/stable "Kivy")
-* [Toga](https://github.com/beeware/toga "Toga")
-* [wxPython](https://www.wxpython.org/ "wxPython")
 * [PySimpleGUI](https://www.pysimplegui.org/en/latest/ "PySimpleGUI")
+* [wxPython](https://www.wxpython.org/ "wxPython")
+* [Toga](https://github.com/beeware/toga "Toga")
+* [Kivy](https://kivy.org/doc/stable "Kivy")
 
 Demos:
 -----
@@ -43,21 +43,23 @@ Demos:
 
 https://github.com/MihailCosmin/cookiecutter-python-gui-application/assets/14019626/84625eb8-f643-47bc-b8e4-b7c6adc1fd06
 
+* PySimpleGUI:
+
+![PySimpleGUI](https://github.com/PriestTheBeast/SimpleGUIBuilder/blob/main/SimpleGUIBuilder.gif)
+
 * wxPython:
 
 ![Web Browser](https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/main/%7B%7Bcookiecutter.project_slug%7D%7D/demo/wxPython_/demo.gif)
 
-* PySimpleGUI:
 
-![PySimpleGUI](https://github.com/PriestTheBeast/SimpleGUIBuilder/blob/main/SimpleGUIBuilder.gif)
+* [Toga](https://github.com/Depot-Analytics/toga-hangman):
+
+![Toga](https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/2461902454a4803171acadd12d4c2f50e24ee5d5/%7B%7Bcookiecutter.project_slug%7D%7D/demo/toga_/sample.gif)
 
 * Kivy:
 
 ![Kivy](https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/main/%7B%7Bcookiecutter.project_slug%7D%7D/demo/kivy_/sample.gif)
 
-* Kivy:
-
-![Toga](https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/2461902454a4803171acadd12d4c2f50e24ee5d5/%7B%7Bcookiecutter.project_slug%7D%7D/demo/toga_/sample.gif)
 
 Usage
 -----
