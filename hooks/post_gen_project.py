@@ -27,6 +27,7 @@ if not keep_demo:
     remove('demo')
 else:
     if '{{cookiecutter.gui_framework}}'.startswith('PySide') or '{{cookiecutter.gui_framework}}'.startswith('PyQt'):
+        remove('demo/toga_')
         remove('demo/kivy_')
         remove('demo/tkinter_')
         remove('demo/wxPython_')
@@ -36,6 +37,7 @@ else:
     if '{{cookiecutter.gui_framework}}' == 'Tkinter':
         remove('demo/Tkinter')
         os.rename('demo/tkinter_', 'demo/tkinter')
+        remove('demo/toga_')
         remove('demo/kivy_')
         remove('demo/wxPython_')
         remove('demo/pysimplegui_')
@@ -44,6 +46,7 @@ else:
     if '{{cookiecutter.gui_framework}}' == 'customTkinter':
         remove('demo/customTkinter')
         os.rename('demo/customTkinter_', 'demo/customTkinter')
+        remove('demo/toga_')
         remove('demo/kivy_')
         remove('demo/tkinter_')
         remove('demo/wxPython_')
@@ -52,6 +55,7 @@ else:
     if '{{cookiecutter.gui_framework}}' == 'Kivy':
         remove('demo/Kivy')
         os.rename('demo/kivy_', 'demo/kivy')
+        remove('demo/toga_')
         remove('demo/tkinter_')
         remove('demo/wxPython_')
         remove('demo/pysimplegui_')
@@ -60,15 +64,26 @@ else:
     if '{{cookiecutter.gui_framework}}' == 'wxPython':
         remove('demo/wxPython')
         os.rename('demo/wxPython_', 'demo/wxPython')
-        remove('demo/tkinter_')
+        remove('demo/toga_')
         remove('demo/kivy_')
+        remove('demo/tkinter_')
         remove('demo/pysimplegui_')
         remove('demo/customTkinter_')
 
     if '{{cookiecutter.gui_framework}}' == 'PySimpleGUI':
         remove('demo/PySimpleGUI')
         os.rename('demo/pysimplegui_', 'demo/PySimpleGUI')
+        remove('demo/toga_')
         remove('demo/kivy_')
         remove('demo/tkinter_')
         remove('demo/wxPython_')
+        remove('demo/customTkinter_')
+
+    if '{{cookiecutter.gui_framework}}' == 'Toga':
+        remove('demo/Toga')
+        os.rename('demo/toga_', 'demo/Toga')
+        remove('demo/kivy_')
+        remove('demo/tkinter_')
+        remove('demo/wxPython_')
+        remove('demo/pysimplegui_')
         remove('demo/customTkinter_')
