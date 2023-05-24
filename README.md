@@ -40,7 +40,7 @@ Demos:
 ![Text Editor](https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/main/%7B%7Bcookiecutter.project_slug%7D%7D/demo/tkinter_/text-editor.png)
 
 * CustomTkinter:
-![CustomTkinter](https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/e0587ae2831c727c1ddb3b3ea2e2485f7ea73e7a/%7B%7Bcookiecutter.project_slug%7D%7D/demo/customTkinter_/sample.mp4)
+![CustomTkinter](https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/950d83779a83f2edb299ac19778c13008814a78d/%7B%7Bcookiecutter.project_slug%7D%7D/demo/customTkinter_/sample.mp4)
 
 * Kivy:
 
