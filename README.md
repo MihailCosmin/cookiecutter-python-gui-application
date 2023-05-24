@@ -41,7 +41,7 @@ Demos:
 
 * CustomTkinter:
 ![CustomTkinter](https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/950d83779a83f2edb299ac19778c13008814a78d/%7B%7Bcookiecutter.project_slug%7D%7D/demo/customTkinter_/sample.mp4)
-<video src='https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/950d83779a83f2edb299ac19778c13008814a78d/%7B%7Bcookiecutter.project_slug%7D%7D/demo/customTkinter_/sample.mp4' width='360'/>
+<video src='https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/950d83779a83f2edb299ac19778c13008814a78d/%7B%7Bcookiecutter.project_slug%7D%7D/demo/customTkinter_/sample.mp4' width='360'></video>
 
 * Kivy:
 
