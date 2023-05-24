@@ -57,7 +57,7 @@ https://github.com/MihailCosmin/cookiecutter-python-gui-application/assets/14019
 
 * Kivy:
 
-![Kivy](https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/main/%7B%7Bcookiecutter.project_slug%7D%7D/demo/kivy_/sample.gif)
+![Toga](https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/2461902454a4803171acadd12d4c2f50e24ee5d5/%7B%7Bcookiecutter.project_slug%7D%7D/demo/toga_/sample.gif)
 
 Usage
 -----
