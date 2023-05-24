@@ -1,0 +1,142 @@
+# This project was generated with Unknown using template: https://github.com/beeware/briefcase-template@v0.3.13
+[tool.briefcase]
+project_name = "Toga Blog Post"
+bundle = "com.example"
+version = "0.0.1"
+url = "https://example.com/togablogpost"
+license = "BSD license"
+author = "Alyssa Caples"
+author_email = "alyssa@depotanalytics.co"
+
+[tool.briefcase.app.togablogpost]
+formal_name = "Toga Blog Post"
+description = "This will be the app for creating a blog post application"
+long_description = """More details about the app should go here.
+"""
+icon = "src/togablogpost/resources/togablogpost"
+sources = [
+    "src/togablogpost",
+]
+test_sources = [
+    "tests",
+]
+
+requires = [
+]
+test_requires = [
+    "pytest",
+]
+
+[tool.briefcase.app.togablogpost.macOS]
+requires = [
+    "toga-cocoa~=0.3.0",
+    "std-nslog~=1.0.0"
+]
+
+[tool.briefcase.app.togablogpost.linux]
+requires = [
+    "toga-gtk~=0.3.0",
+]
+
+[tool.briefcase.app.togablogpost.linux.system.debian]
+system_requires = [
+    # Needed to compile pycairo wheel
+    'libcairo2-dev',
+    # Needed to compile PyGObject wheel
+    'libgirepository1.0-dev',
+]
+
+system_runtime_requires = [
+    # Needed to provide GTK
+    "libgtk-3-0",
+    # Needed to provide GI bindings to GTK
+    "libgirepository-1.0-1",
+    "gir1.2-gtk-3.0",
+    # Needed to provide WebKit2 at runtime
+    # "libwebkit2gtk-4.0-37",
+    # "gir1.2-webkit2-4.0",
+]
+
+[tool.briefcase.app.togablogpost.linux.system.rhel]
+system_requires = [
+    # Needed to compile pycairo wheel
+    'cairo-gobject-devel',
+    # Needed to compile PyGObject wheel
+    'gobject-introspection-devel',
+]
+
+system_runtime_requires = [
+    # Needed to support Python bindings to GTK
+    "gobject-introspection",
+    # Needed to provide GTK
+    "gtk3",
+    # Needed to provide WebKit2 at runtime
+    # "webkit2gtk3",
+]
+
+[tool.briefcase.app.togablogpost.linux.system.arch]
+system_requires = [
+    # Needed to compile pycairo wheel
+    'cairo',
+    # Needed to compile PyGObject wheel
+    'gobject-introspection',
+]
+
+system_runtime_requires = [
+    # Needed to provide GTK
+    "gtk",
+    # Needed to provide WebKit2 at runtime
+    # "webkit2gtk",
+]
+
+[tool.briefcase.app.togablogpost.linux.appimage]
+system_requires = [
+    "libcairo2-dev",
+    "libgirepository1.0-dev",
+    "libgtk-3-dev",
+    "libpango1.0-dev",
+    "librsvg2-dev",
+    # Needed to support Webkit2
+    # "gir1.2-webkit2-4.0",
+    # "libwebkit2gtk-4.0-dev",
+]
+linuxdeploy_plugins = [
+    "DEPLOY_GTK_VERSION=3 gtk",
+]
+
+[tool.briefcase.app.togablogpost.linux.flatpak]
+flatpak_runtime = "org.gnome.Platform"
+flatpak_runtime_version = "42"
+flatpak_sdk = "org.gnome.Sdk"
+
+[tool.briefcase.app.togablogpost.windows]
+requires = [
+    "toga-winforms~=0.3.0",
+]
+
+# Mobile deployments
+[tool.briefcase.app.togablogpost.iOS]
+requires = [
+    "toga-iOS~=0.3.0",
+    "std-nslog~=1.0.0"
+]
+
+[tool.briefcase.app.togablogpost.android]
+requires = [
+    "toga-android~=0.3.0"
+]
+
+# Web deployments
+[tool.briefcase.app.togablogpost.web]
+requires = [
+    "toga-web~=0.3.0",
+]
+style_framework = "Bootstrap v4.6"
+
+# 2023-02-26: This is a workaround for briefcase#1089/pyscript#1204.
+extra_pyscript_toml_content = """
+[[runtimes]]
+src = "https://cdn.jsdelivr.net/pyodide/v0.22.1/full/pyodide.js"
+name = "Python runtime"
+lang = "python"
+"""
