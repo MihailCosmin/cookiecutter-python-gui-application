@@ -27,15 +27,25 @@ if not keep_demo:
     remove('demo')
 else:
     if '{{cookiecutter.gui_framework}}'.startswith('PySide') or '{{cookiecutter.gui_framework}}'.startswith('PyQt'):
-        remove('demo/tkinter_')
         remove('demo/kivy_')
+        remove('demo/tkinter_')
         remove('demo/wxPython_')
         remove('demo/pysimplegui_')
+        remove('demo/customTkinter_')
 
     if '{{cookiecutter.gui_framework}}' == 'Tkinter':
         remove('demo/Tkinter')
         os.rename('demo/tkinter_', 'demo/tkinter')
         remove('demo/kivy_')
+        remove('demo/wxPython_')
+        remove('demo/pysimplegui_')
+        remove('demo/customTkinter_')
+
+    if '{{cookiecutter.gui_framework}}' == 'customTkinter':
+        remove('demo/customTkinter')
+        os.rename('demo/customTkinter_', 'demo/customTkinter')
+        remove('demo/kivy_')
+        remove('demo/tkinter_')
         remove('demo/wxPython_')
         remove('demo/pysimplegui_')
 
@@ -45,6 +55,7 @@ else:
         remove('demo/tkinter_')
         remove('demo/wxPython_')
         remove('demo/pysimplegui_')
+        remove('demo/customTkinter_')
 
     if '{{cookiecutter.gui_framework}}' == 'wxPython':
         remove('demo/wxPython')
@@ -52,10 +63,12 @@ else:
         remove('demo/tkinter_')
         remove('demo/kivy_')
         remove('demo/pysimplegui_')
+        remove('demo/customTkinter_')
 
     if '{{cookiecutter.gui_framework}}' == 'PySimpleGUI':
         remove('demo/PySimpleGUI')
         os.rename('demo/pysimplegui_', 'demo/PySimpleGUI')
-        remove('demo/tkinter_')
         remove('demo/kivy_')
+        remove('demo/tkinter_')
         remove('demo/wxPython_')
+        remove('demo/customTkinter_')
