@@ -22,8 +22,7 @@ Supported GUI Frameworks
 -----
 * [PyQt5 and PyQt6](https://www.riverbankcomputing.com/static/Docs/PyQt6 "PyQt5 and PyQt6")
 * [PySide2 and PySide6](https://doc.qt.io/qtforpython "PySide2 and PySide6")
-* [tkinter](https://docs.python.org/3/library/tk.html "tkinter")  # TODO: Check [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
-* TODO: Add Django for desktop apps
+* [tkinter](https://docs.python.org/3/library/tk.html "tkinter") and [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
 * [Kivy](https://kivy.org/doc/stable "Kivy")
 * TODO: Add [Toga](https://github.com/beeware/toga "Toga")
 * [wxPython](https://www.wxpython.org/ "wxPython")
@@ -39,6 +38,11 @@ Demos:
 * Tkinter:
 
 ![Text Editor](https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/main/%7B%7Bcookiecutter.project_slug%7D%7D/demo/tkinter_/text-editor.png)
+
+* CustomTkinter:
+
+https://github.com/MihailCosmin/cookiecutter-python-gui-application/assets/14019626/84625eb8-f643-47bc-b8e4-b7c6adc1fd06
+
 
 * Kivy:
 
