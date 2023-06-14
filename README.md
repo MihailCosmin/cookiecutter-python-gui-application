@@ -26,6 +26,7 @@ Supported GUI Frameworks
 * TODO: Add [DearPyGui](https://github.com/hoffstadt/DearPyGui) 
 * [PySimpleGUI](https://www.pysimplegui.org/en/latest/ "PySimpleGUI")
 * [wxPython](https://www.wxpython.org/ "wxPython")
+* TODO: [DelphiFMX4Python](https://pypi.org/project/delphifmx/) and [DelphiVCL](https://pypi.org/project/delphivcl/)
 * [Toga](https://github.com/beeware/toga "Toga")
 * TODO: Add [PyForms](https://github.com/UmSenhorQualquer/pyforms-gui)
 * [Kivy](https://kivy.org/doc/stable "Kivy")
@@ -63,6 +64,10 @@ https://github.com/MihailCosmin/cookiecutter-python-gui-application/assets/14019
 
 ![Kivy](https://github.com/MihailCosmin/cookiecutter-python-gui-application/blob/main/%7B%7Bcookiecutter.project_slug%7D%7D/demo/kivy_/sample.gif)
 
+
+Frameworks Comparison
+-----
+TODO:
 
 Usage
 -----
